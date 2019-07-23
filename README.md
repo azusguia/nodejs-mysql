@@ -9,5 +9,5 @@ Basic CRUD using nodejs and mysql on REST architecture.
 * git clone
 * `yarn` / `npm i` to install dependencies
 * change src/config/database.js file configuration with your database settings
-* execute `sequelize db:migrate`
-* execute `yarn run dev` / `npm run dev`
+* `sequelize db:migrate`
+* `yarn server` / `npm run server`
