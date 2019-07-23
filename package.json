@@ -1,0 +1,24 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "description": "Basic template for NodeJS aplications",
+  "main": "./bin/server.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "server": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "Azuel Aguiar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.9",
+    "sequelize-cli": "^5.5.0"
+  }
+}
